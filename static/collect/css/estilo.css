@@ -1,0 +1,75 @@
+.expand-completo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.fixed ~ div {
+    margin-bottom: 50px;
+}
+
+@media(max-width: 800px){
+    .fixed + div {
+        margin-top: 73px;
+    }
+
+    .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .horizontal-slider .expand {
+        opacity: 1 !important;
+    }
+
+    .portfolio .grid-item .hover {
+        opacity: 1;
+    }
+
+    .main-menu > li > ul {
+        margin-right: 20px;
+    }
+}
+
+@media(min-width: 801px){
+    .fixed + div {
+        margin-top: 107px;
+    }
+}
+
+.horizontal-slider .swiper-slide .expand {
+    top: 21px;
+    right: 21px;
+}
+
+.controls-wrapper {
+    position: static;
+}
+
+.rich-text ul {
+    margin-left: 20px;
+}
+
+.rich-text {
+    padding: 15px;
+}
+
+.rich-text p {
+    color: black;
+}
+
+@media only screen and (-o-min-device-pixel-ratio: 5/4),
+       only screen and (-webkit-min-device-pixel-ratio: 1.25),
+       only screen and (min-device-pixel-ratio: 1.25),
+       only screen and (min-resolution: 1.25dppx) {
+    .hide1x {display: none}
+}
+@media only screen and (-o-max-device-pixel-ratio: 5/4),
+       only screen and (-webkit-max-device-pixel-ratio: 1.25),
+       only screen and (max-device-pixel-ratio: 1.25),
+       only screen and (max-resolution: 1.25dppx) {
+    .hide2x {display: none}
+}
+
+
+
