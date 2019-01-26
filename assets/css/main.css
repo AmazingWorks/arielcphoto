@@ -2303,8 +2303,8 @@ figure.slider figure figcaption {
         transform: translate(-50%, -50%);
 }
 .blog_vcard h2{
-  font-size: 20px;
-  	color: #666;
+  font-size: 25px;
+  	color: black;
   font-weight: 600;
   font-family: "Mukta", sans-serif;
 }
